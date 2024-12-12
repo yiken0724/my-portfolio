@@ -1,0 +1,117 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center;     /* Centers the content vertically */
+  padding: 150px 0;
+  height: 100vh;           /* Ensures the content takes up the full height of the viewport */
+}
+
+.section1 {
+  display: flex;           /* Enables flexbox for children alignment */
+  gap: 20px;               /* Adds space between Biography and HomePic components */
+  align-items: center;     /* Vertically aligns components */
+  justify-content: center; /* Centers the components within the container */
+}
+
+.text-container {
+  max-width: 50%;          /* Limit the width of the text section */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.text-container h1, .text-container h2 {
+  margin: 0;
+  font-size: 100px;        /* Make the text bigger */
+}
+
+.text-container h1 {
+  font-size: 200px;        /* Make "Hi," bigger */
+}
+
+.text-container p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Highlight word effect */
+.text-container p span.highlight {
+  color: #007BFF;        
+  font-weight: bold;
+  position: relative;  /* Required for pseudo-element */
+  display: inline-block; /* Ensures the effect applies only to the text */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+.text-container p span.highlight:hover {
+  color: #0056b3; /* Darker color when hovered */
+  background-color: rgba(0, 123, 255, 0.2); /* Light background color on hover */
+  border-radius: 5px; /* Slight rounded corners for better effect */
+}
+
+/* Underline word effect */
+.text-container p span.underline {
+  text-decoration: underline;
+  font-weight: bold;
+  position: relative; /* Required for pseudo-element */
+  transition: text-decoration-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.text-container p span.underline:hover {
+  text-decoration-color: #3498db; /* Change underline color */
+  color: #3498db; /* Change text color when hovered */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.round-photo {
+  width: 500px;            /* Adjust the size of the image */
+  height: 500px;
+  border-radius: 50%;      /* Make the image round */
+  object-fit: cover;       /* Ensure the image covers the circle */
+  border: 5px solid #000;  /* Optional border around the image */
+}
+
+.project-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+.project-link a {
+  color: #3498db; /* Change to your preferred color */
+  text-decoration: none; /* Remove default underline */
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.project-link a:hover {
+  text-decoration: underline; /* Underline the link on hover */
+  color: #2980b9; /* Change the color when hovered */
+}
+
+@media (max-width: 768px) {
+  .section1 {
+    flex-direction: column; /* Stack Biography and HomePic on smaller screens */
+    gap: 30px;              /* Add more space for vertical layout */
+  }
+
+  .text-container h1 {
+    font-size: 80px;
+  }
+
+  .text-container h2 {
+    font-size: 40px;
+  }
+
+  .round-photo {
+    width: 400px;
+    height: 400px;
+  }
+}

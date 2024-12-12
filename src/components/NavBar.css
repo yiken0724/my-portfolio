@@ -1,0 +1,21 @@
+/* Container for the entire navbar */
+.navbarContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* Aligns the navbar to the right */
+    padding: 20px 20px 20px 0px;
+    background-color: black; /* Dark background for the navbar */
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    display: flex;
+    align-items: center; /* Centers the buttons vertically */
+    gap: 25px; /* Adds space between buttons */
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  
