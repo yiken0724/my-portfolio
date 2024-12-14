@@ -1,6 +1,7 @@
-.bottombarContainer {
+  .bottombarContainer {
+    display: flex;
+    justify-content: right;
     width: 100%;
-    position: fixed;
     bottom: 0;
     background-color: black;
     padding: 10px 50px 10px 10px;

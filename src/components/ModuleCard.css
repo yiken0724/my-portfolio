@@ -1,0 +1,96 @@
+/* Overall container for the card */
+.module-card-container {
+    display: flex;
+    justify-content: space-between; /* Aligns the content to both sides */
+    align-items: center; /* Centers items vertically */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* For hover effect */
+}
+
+.module-card-container:hover {
+    transform: translateY(-3px); /* Lifts the card slightly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow */
+}
+
+/* Content area on the left side */
+.module-card-content {
+    flex: 1; /* Ensures this section takes up most of the space */
+    margin-right: 20px; /* Spacing from the button */
+}
+
+/* Header with course code and name */
+.module-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Space between header and description */
+}
+
+.course-code {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.course-name {
+    font-size: 18px;
+    color: #007BFF;
+    word-wrap: break-word; /* Ensures long words wrap */
+    text-overflow: ellipsis; /* Handles overflow with ellipsis */
+    white-space: nowrap; /* Prevents wrapping on a single line */
+    overflow: hidden;
+}
+
+/* Short description of the course */
+.course-description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+    line-height: 1.5; /* Improves readability */
+    max-height: 3.6em; /* Limits to 2 lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Button styling */
+.module-card-link {
+    text-decoration: none;
+}
+
+.module-card-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Adds smooth transitions */
+}
+
+.module-card-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Slightly enlarges the button */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .module-card-container {
+        flex-direction: column; /* Stacks items vertically */
+        align-items: flex-start; /* Aligns items to the start */
+    }
+
+    .module-card-content {
+        margin-right: 0; /* Removes unnecessary spacing */
+        margin-bottom: 15px; /* Adds spacing below the content */
+    }
+
+    .module-card-button {
+        width: 100%; /* Makes button full-width */
+        text-align: center;
+    }
+}

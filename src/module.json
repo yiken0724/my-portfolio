@@ -1,0 +1,173 @@
+{
+    "SC1003": {
+      "courseName": "Introduction to Computational Thinking & Programming",
+      "category": "CS",
+      "description": "Learn the basics of programming using Python."
+    },
+    "SC1005": {
+      "courseName": "Digital Logic",
+      "category": "CS",
+      "description": "Study of mathematical structures used in computer science."
+    },
+    "SC1006": {
+      "courseName": "Computer Organisation & Architecture",
+      "category": "CS",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "SC1007": {
+      "courseName": "Data Structures & Algorithms",
+      "category": "CS",
+      "description": "Study of algorithms for solving problems efficiently."
+    },
+    "SC2001": {
+      "courseName": "Algorithm Design & Analysis",
+      "category": "CS",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "SC2002": {
+      "courseName": "Object Oriented Design & Programming",
+      "category": "CS",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "SC2005": {
+      "courseName": "Operating Systems",
+      "category": "CS",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "SC2006": {
+      "courseName": "Software Engineering",
+      "category": "CS",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "SC2207": {
+      "courseName": "Computer Organisation & Architecture",
+      "category": "CS",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "SC2008": {
+      "courseName": "Computer Networks",
+      "category": "CS",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "SC3020": {
+      "courseName": "Database Systems Principles",
+      "category": "CS",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "CC0001": {
+      "courseName": "Inquiry & Communication in an Interdisciplinary World",
+      "category": "CC/FC",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "CC0002": {
+      "courseName": "Navigating the Digital World",
+      "category": "CC/FC",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "CC0003": {
+      "courseName": "Ethics & Civics in a Multicultural World",
+      "category": "CC/FC",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "ML0004": {
+      "courseName": "Career & Innovative Enterprise for the Future World",
+      "category": "CC/FC",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "CC0005": {
+      "courseName": "Healthy Living & Wellbeing",
+      "category": "CC/FC",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "CC0006": {
+      "courseName": "Sustainability: Society, Economy & Environment",
+      "category": "CC/FC",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "CC0007": {
+      "courseName": "Science & Technology for Humanity",
+      "category": "CC/FC",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "HW0218": {
+      "courseName": "Introduction to Data Science and Artificial Intelligence",
+      "category": "CC/FC",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "PS0002": {
+      "courseName": "Communication Across the Sciences",
+      "category": "CC/FC",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH1100": {
+      "courseName": "Calculus I",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH1101": {
+      "courseName": "Calculus II",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH1200": {
+      "courseName": "Linear Algebra I",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH1201": {
+      "courseName": "Linear Algebra II",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH1300": {
+      "courseName": "Foundation of Mathematics",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH1301": {
+      "courseName": "Discrete Mathematics",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH2100": {
+      "courseName": "Calculus III",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH2500": {
+      "courseName": "Probability and Introduction to Statistics" ,
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH3110": {
+      "courseName": "Ordinary Differential Equations",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH3500": {
+      "courseName": "Statistics",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH3510": {
+      "courseName": "Regression Analysis",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH3511": {
+      "courseName": "Data Analysis with Computer",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH4511": {
+      "courseName": "Sampling & Survey",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    },
+    "MH5301": {
+      "courseName": "Modern Cryptography: Real-World Applications and Impact",
+      "category": "MT",
+      "description": "Learn about different data structures like arrays, stacks, and queues."
+    }
+}
+  
