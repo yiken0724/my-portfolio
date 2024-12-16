@@ -5,7 +5,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between; /* Aligns the logo to the left and buttons to the right */
-  padding: 20px 20px 20px 0px;
+  padding: 20px;
   background-color: black; /* Dark background for the navbar */
 }
 
@@ -14,6 +14,7 @@
   display: flex;
   align-items: center; /* Centers the buttons vertically */
   gap: 25px; /* Adds space between buttons */
+  margin-right: 40px;
 }
 
 /* Link styling */
@@ -24,8 +25,7 @@
 /* Style the container for the logo */
 .portfolio-logo {
   display: flex;
-  align-items: center;
-  margin-left: 20px; /* Adds spacing from the left edge */
+
 }
 
 /* Style the link inside the logo */
@@ -37,17 +37,17 @@
 
 /* Style the logo image */
 .logo-image {
-  height: 50px; /* Set size for the logo image */
-  width: 50px; /* Ensure the image is square */
+  height: 100px; /* Set size for the logo image */
+  width: 100px; /* Ensure the image is square */
   border-radius: 50%; /* Makes the image round */
   object-fit: cover; /* Ensures the image is fully visible within the circle */
-  margin-right: 10px; /* Adds space between the image and the text */
+  margin-right: 20px; /* Adds space between the image and the text */
 }
 
 /* Style the logo text */
 .logo-text {
   color: white; /* Set text color to white */
-  font-size: 24px; /* Adjust the font size */
+  font-size: 40px; /* Adjust the font size */
   font-family: "Audiowide", sans-serif; /* Use your desired font */
   font-weight: 400;
   font-style: normal;
