@@ -10,6 +10,10 @@ function BottomBar() {
           <p>&#169; 2024</p>
         </div>
 
+
+
+
+
         <div className="right">
           <a href="https://github.com/yiken0724" target="_blank" rel="noopener noreferrer">
             <img src="/images/github.png" alt="Github" className="social-icon" />

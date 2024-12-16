@@ -1,10 +1,12 @@
 import React from "react";
 import NavButton from "./NavButton";
 import "./NavBar.css";
+import PortfolioLogo from "./PortfolioLogo";
 
 function NavBar() {
   return (
     <div className="navbarContainer">
+      <PortfolioLogo/>
       <div className="navbar">
         <NavButton label="HOME" route="/" />
         <NavButton label="ABOUT ME" route="/about-me" />

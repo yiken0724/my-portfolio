@@ -1,37 +1,36 @@
-  .bottombarContainer {
-    display: flex;
-    justify-content: right;
-    width: 100%;
-    bottom: 0;
-    background-color: black;
-    padding: 10px 50px 10px 10px;
-  }
-  
-  .bottombar {
-    display: flex;
-    justify-content: space-between;  /* Space between the left and right sections */
-    align-items: center;
-    color: white;
-  }
-  
-  .left p {
-    margin: 0;
-    font-size: 25px;
-  }
-  
-  .right {
-    display: flex;
-    gap: 25px;  
-  }
-  
-  .social-icon {
-    width: 50px;  /* Size of the icons */
-    height: 50px;
-    object-fit: contain;
-    cursor: pointer;
-  }
-  
-  .social-icon:hover {
-    opacity: 0.8;  /* Slight opacity change on hover for better UX */
-  }
-  
+.bottombarContainer {
+  display: flex;
+  width: 100%;
+  bottom: 0;
+  background-color: black;
+  padding: 10px 50px 10px 10px;
+}
+
+.bottombar {
+  display: flex;
+  justify-content: space-between; /* Distribute left and right sections */
+  align-items: center;
+  width: 100%; /* Ensure the bar spans the full width */
+  color: white;
+}
+
+.left p {
+  margin: 0;
+  font-size: 25px;
+}
+
+.right {
+  display: flex;
+  gap: 25px;
+}
+
+.social-icon {
+  width: 50px; /* Size of the icons */
+  height: 50px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  opacity: 0.8; /* Slight opacity change on hover for better UX */
+}
